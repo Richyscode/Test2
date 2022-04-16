@@ -43,7 +43,7 @@
         lbl.innerText = "Model Loading ..."
         model = await createModel(path)
 
-        lbl.innerText = "Model Loaded !"
+        lbl.innerText = "Model loaded!"
     }
     // show seleted image
     function preview_image(event) {
